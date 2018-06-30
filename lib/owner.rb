@@ -39,6 +39,7 @@ class Owner
   end
 
   def sell_pets
+    pets.each {|key, value| value.clear}
   end
 
   def self.all
