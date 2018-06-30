@@ -2,11 +2,12 @@ class Owner
   # code goes here
   @@all = []
 
-  def initialize
+  def initialize(name)
+    
     @@all << self
   end
 
-  def self.all 
+  def self.all
     @@all
   end
 
